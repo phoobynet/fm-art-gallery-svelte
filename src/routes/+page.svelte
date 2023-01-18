@@ -146,6 +146,7 @@
 			padding: 3rem 2rem;
 			margin-top: 5rem;
 			bottom: 0;
+			width: 100%;
 
 			p {
 				color: var(--color-white);
