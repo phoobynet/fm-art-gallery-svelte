@@ -5,18 +5,28 @@ body {
 	font-family: var(--ff-outfit);
 }
 
-.heading-xl {
+@mixin heading {
 	text-transform: uppercase;
 	font-family: var(--ff-big-shoulders-display);
 	font-weight: var(--fw-black);
+}
+
+.heading-xl {
+	@include heading;
 	font-size: var(--fs-heading-xl);
-	line-height: var(--fs-heading-xl-lh);
+	line-height: var(--lh-heading-xl);
+}
+
+.heading-l {
+	@include heading;
+	font-size: var(--fs-heading-l);
+	line-height: var(--lh-heading-l);
 }
 
 p {
 	font-family: var(--ff-outfit), sans-serif;
 	font-weight: var(--fw-light);
-	font-size: var(--fs-body);
-	line-height: var(--fs-body-lh);
+	font-size: var(--fs-base);
+	line-height: var(--lh-base);
 	color: var(--color-dark-gray);
 }

@@ -3,10 +3,18 @@
 	--ff-outfit: 'Outfit';
 	--fw-light: 300;
 	--fw-black: 900;
+
 	--fs-heading-xl: 3.75rem;
-	--fs-heading-xl-lh: 55px;
-	--fs-body: 18px;
-	--fs-body-lh: 28px;
+	--lh-heading-xl: 55px;
+
+	--fs-heading-l: 50px;
+	--lh-heading-l: 45px;
+
+	--fs-base: 18px;
+	--lh-base: 28px;
+
+	--fs-small: 16px;
+	--lh-small: 26px;
 
 	--color-white: #ffffff;
 	--color-dark-gray: #444444;
@@ -15,13 +23,15 @@
 
 	@media (min-width: 768px) {
 		--fs-heading-xl: 4.375rem;
-		--fs-heading-xl-lh: 65px;
+		--lh-heading-xl: 65px;
 	}
 
 	@media (min-width: 1440px) {
 		--fs-heading-xl: 6rem;
-		--fs-heading-xl-lh: 88px;
-		--fs-body: 22px;
-		--fs-body-lh: 32px;
+		--lh-heading-xl: 88px;
+		--fs-base: 22px;
+		--lh-base: 32px;
+		--fs-heading-l: 60px;
+		--lh-heading-l: 60px;
 	}
 }

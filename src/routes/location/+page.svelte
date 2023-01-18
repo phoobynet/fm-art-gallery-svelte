@@ -1,2 +1,4 @@
-<div>location</div>
-<a href="/">Home</a>
+<main>
+	<div>location</div>
+	<a href="/">Home</a>
+</main>

@@ -1,7 +1,4 @@
 <script lang="ts">
-	import iconArrowLeft from '@/assets/icon-arrow-left.svg'
-	import iconArrowRight from '@/assets/icon-arrow-right.svg'
-
 	type Direction = 'left' | 'right'
 	export let direction: Direction
 	export let href: string
@@ -13,9 +10,9 @@
 	</div>
 	<div class="arrow">
 		{#if direction === 'right'}
-			<img src={iconArrowRight} alt="" />
+			<img src="/images/icon-arrow-right.svg" alt="" />
 		{:else}
-			<img src={iconArrowLeft} alt="" />
+			<img src="/images/icon-arrow-left.svg" alt="" />
 		{/if}
 	</div>
 </a>
