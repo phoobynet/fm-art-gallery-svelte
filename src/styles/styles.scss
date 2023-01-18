@@ -1,0 +1,22 @@
+@import 'reset';
+@import 'global';
+
+body {
+	font-family: var(--ff-outfit);
+}
+
+.heading-xl {
+	text-transform: uppercase;
+	font-family: var(--ff-big-shoulders-display);
+	font-weight: var(--fw-black);
+	font-size: var(--fs-heading-xl);
+	line-height: var(--fs-heading-xl-lh);
+}
+
+p {
+	font-family: var(--ff-outfit), sans-serif;
+	font-weight: var(--fw-light);
+	font-size: var(--fs-body);
+	line-height: var(--fs-body-lh);
+	color: var(--color-dark-gray);
+}

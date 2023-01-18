@@ -1,0 +1,27 @@
+:root {
+	--ff-big-shoulders-display: 'Big Shoulders Display';
+	--ff-outfit: 'Outfit';
+	--fw-light: 300;
+	--fw-black: 900;
+	--fs-heading-xl: 3.75rem;
+	--fs-heading-xl-lh: 55px;
+	--fs-body: 18px;
+	--fs-body-lh: 28px;
+
+	--color-white: #ffffff;
+	--color-dark-gray: #444444;
+	--color-almost-black: #151515;
+	--color-gold: #d5966c;
+
+	@media (min-width: 768px) {
+		--fs-heading-xl: 4.375rem;
+		--fs-heading-xl-lh: 65px;
+	}
+
+	@media (min-width: 1440px) {
+		--fs-heading-xl: 6rem;
+		--fs-heading-xl-lh: 88px;
+		--fs-body: 22px;
+		--fs-body-lh: 32px;
+	}
+}
