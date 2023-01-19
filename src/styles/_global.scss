@@ -21,6 +21,9 @@
 	--color-almost-black: #151515;
 	--color-gold: #d5966c;
 
+	--logo-w: 110px;
+	--logo-h: 40px;
+
 	@media (min-width: 768px) {
 		--fs-heading-xl: 4.375rem;
 		--lh-heading-xl: 65px;
@@ -33,5 +36,7 @@
 		--lh-base: 32px;
 		--fs-heading-l: 60px;
 		--lh-heading-l: 60px;
+		--logo-w: 160px;
+		--logo-h: 58px;
 	}
 }

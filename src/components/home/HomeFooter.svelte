@@ -1,5 +1,9 @@
+<script>
+	import Logo from '@/components/Logo.svelte'
+</script>
+
 <footer>
-	<img src="/images/logo-light.svg" alt="" class="logo" />
+	<Logo />
 	<p>
 		The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find
 		us at 99 King Street, Newport, USA.
@@ -18,11 +22,6 @@
 		margin-top: 7.5rem;
 		width: 100%;
 
-		.logo {
-			width: 110px;
-			height: 40px;
-		}
-
 		p {
 			color: var(--color-white);
 			font-size: var(--fs-small);
@@ -33,6 +32,7 @@
 		.social-media {
 			display: flex;
 			gap: 1.5rem;
+
 			img {
 				width: 20px;
 				height: 20px;
@@ -50,7 +50,7 @@
 
 			p {
 				padding: 0;
-				max-width: 281px;
+				max-width: 37vw;
 			}
 		}
 	}

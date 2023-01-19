@@ -12,6 +12,16 @@
 <HomeFooter />
 
 <style lang="scss">
-	.content {
+	.container {
+		margin-inline: auto;
+		max-width: 375px;
+
+		@media (min-width: 768px) {
+			max-width: 768px;
+		}
+
+		@media (min-width: 1440px) {
+			max-width: 1440px;
+		}
 	}
 </style>
