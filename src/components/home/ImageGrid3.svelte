@@ -18,8 +18,3 @@
 	/>
 	<img src="/images/mobile/image-grid-3.jpg" alt="" />
 </picture>
-
-<style lang="scss">
-	picture img {
-	}
-</style>
