@@ -71,7 +71,7 @@
 			.content {
 				grid-column: middle / content;
 				place-self: center;
-				padding: 0;
+				padding: 0 2rem 0 0;
 				grid-gap: 3rem;
 			}
 		}
